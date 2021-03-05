@@ -7,6 +7,8 @@ import logging
 from homeassistant.components.hassio import DOMAIN as HASSIO_DOMAIN
 from homeassistant.components.hassio.const import (
     ATTR_ADDONS,
+)
+from homeassistant.const import (
     ATTR_NAME,
 )
 from homeassistant.components.switch import SwitchEntity
